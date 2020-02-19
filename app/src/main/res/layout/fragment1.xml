@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button1"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/_1"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="189dp" />
+
+            <Button
+                android:id="@+id/button2"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/_2"
+                tools:layout_editor_absoluteX="148dp"
+                tools:layout_editor_absoluteY="189dp" />
+
+            <Button
+                android:id="@+id/button3"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/_3"
+                tools:layout_editor_absoluteX="271dp"
+                tools:layout_editor_absoluteY="218dp" />
+
+            <Button
+                android:id="@+id/buttonPlus"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/plus"
+                tools:layout_editor_absoluteX="90dp"
+                tools:layout_editor_absoluteY="392dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button4"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/_4"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="256dp" />
+
+            <Button
+                android:id="@+id/button5"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/_5"
+                tools:layout_editor_absoluteX="116dp"
+                tools:layout_editor_absoluteY="267dp" />
+
+            <Button
+                android:id="@+id/button6"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/_6"
+                tools:layout_editor_absoluteX="215dp"
+                tools:layout_editor_absoluteY="282dp" />
+
+            <Button
+                android:id="@+id/buttonMinus"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/minus"
+                tools:layout_editor_absoluteX="314dp"
+                tools:layout_editor_absoluteY="282dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button7"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/_7"
+                tools:layout_editor_absoluteX="25dp"
+                tools:layout_editor_absoluteY="282dp" />
+
+            <Button
+                android:id="@+id/button8"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/_8"
+                tools:layout_editor_absoluteX="139dp"
+                tools:layout_editor_absoluteY="281dp" />
+
+            <Button
+                android:id="@+id/button9"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/_9"
+                tools:layout_editor_absoluteX="252dp"
+                tools:layout_editor_absoluteY="293dp" />
+
+            <Button
+                android:id="@+id/buttonMult"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/x"
+                tools:layout_editor_absoluteX="146dp"
+                tools:layout_editor_absoluteY="397dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button0"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/_0"
+                tools:layout_editor_absoluteX="242dp"
+                tools:layout_editor_absoluteY="331dp" />
+
+            <Button
+                android:id="@+id/buttonPoint"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/point" />
+
+            <Button
+                android:id="@+id/buttonRes"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/res"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="341dp" />
+
+            <Button
+                android:id="@+id/buttonDiv"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/div"
+                tools:layout_editor_absoluteX="125dp"
+                tools:layout_editor_absoluteY="341dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/buttonDelete"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/c" />
+
+            <Button
+                android:id="@+id/PlusMin"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/plusmin" />
+        </TableRow>
+    </TableLayout>
+
+</android.support.constraint.ConstraintLayout>

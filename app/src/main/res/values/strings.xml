@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">frfr</string>
+    <string name="x">x</string>
+    <string name="_8">8</string>
+    <string name="_0">0</string>
+    <string name="minus">-</string>
+    <string name="_6">6</string>
+    <string name="_5">5</string>
+    <string name="_4">4</string>
+    <string name="plus">+</string>
+    <string name="_3">3</string>
+    <string name="_2">2</string>
+    <string name="_1">1</string>
+    <string name="_7">7</string>
+    <string name="point">.</string>
+    <string name="res">=</string>
+    <string name="div">/</string>
+    <string name="c">c</string>
+    <string name="plusmin">+/-</string>
+    <string name="_9">9</string>
+    <string name="cosh">cosh</string>
+    <string name="ln">ln</string>
+    <string name="sin">sin</string>
+    <string name="sinh">sinh</string>
+    <string name="log10">log10</string>
+    <string name="sqrt">sqrt</string>
+    <string name="x_2">x^2</string>
+    <string name="x_y">x^y</string>
+    <string name="cos">cos</string>
+    <string name="ten">10^x</string>
+    <string name="tanh">tanh</string>
+    <string name="tan">tan</string>
+    <string name="_1_x">1/x</string>
+    <string name="pi">pi</string>
+    <string name="perc">%</string>
+</resources>
